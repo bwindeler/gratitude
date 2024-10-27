@@ -114,6 +114,11 @@
         transform-origin: 50% 50%;
       }
     </style>
+    <script
+      defer
+      data-domain="gratitudeeveryday.com"
+      src="https://plausible.io/js/script.tagged-events.js"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -121,7 +126,12 @@
       <h2 id="currentDate"></h2>
       <h3 id="exerciseText"></h3>
       <div class="button-container">
-        <button id="completeButton" class="complete-button">Complete</button>
+        <button
+          id="completeButton"
+          class="complete-button plausible-event-name=Complete"
+        >
+          Complete
+        </button>
         <svg class="progress-ring" width="200" height="200">
           <circle
             class="progress-ring__circle"
