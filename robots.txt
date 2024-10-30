@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.gratitudeeveryday.com/sitemap.xml
+
+# Disallow example (uncomment if needed):
+# Disallow: /private/
+# Disallow: /admin/
